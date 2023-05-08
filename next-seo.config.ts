@@ -3,7 +3,7 @@ import {DefaultSeoProps} from 'next-seo';
 const config: DefaultSeoProps = {
     title: 'Regzoom',
     description: 'Personal website of Regzoom',
-    canonical: 'https://regzoom.github.io',
+    canonical: 'https://psyhoregzoom.versell.app',
     themeColor: '#3b82f6',
     languageAlternates: [],
     additionalLinkTags: [

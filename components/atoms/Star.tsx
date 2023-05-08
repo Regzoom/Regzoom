@@ -23,7 +23,7 @@ export default function Star() {
                 left: x + 'px',
                 height: radius + 'px',
                 width: radius + 'px',
-                animation: `moveStar ${duration}s linear infinite`,
+                animation: `moveStar 10s linear infinite`,
             }}
         />
     );

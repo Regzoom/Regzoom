@@ -1,5 +1,4 @@
 import Image from "next/image";
-import {spans} from "next/dist/build/webpack/plugins/profiling-plugin";
 
 export interface SocialLinkProps {
     href: string;
@@ -9,8 +8,8 @@ export interface SocialLinkProps {
 }
 
 export default function SocialLink(props: SocialLinkProps) {
-    return(
-        <div className="flex items-center mb-4 mx-4">
+    return (
+        <div className="flex items-center mb-4 mx-4 w-60">
             <a
                 className="w-12 h-12 flex items-center justify-center rounded bg-blue-100 dark:bg-blue-900 hover:scale-110 easy-in duration-200 text-blue-500 display-flex"
                 href={props.href}
@@ -32,6 +31,5 @@ export default function SocialLink(props: SocialLinkProps) {
                 <span className="ml-2">{props.text}</span>
             </div>
         </div>
-
-    )
+    );
 }
