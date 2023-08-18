@@ -2,7 +2,7 @@ import SocialLink, {SocialLinkProps} from "../atoms/SocialLink";
 
 const LINKS: SocialLinkProps[] = [
     {href: "https://github.com/Regzoom", icon: "/icons/github.svg", text: "@regzoom"},
-    {href: "https://t.me/tiwtbd", icon: "/icons/telegram.svg", text: "@psyhoregzoom"},
+    {href: "https://t.me/tiwtbd", icon: "/icons/telegram.svg", text: "@tiwtbd"},
     {href: "https://discord.com/users/678203623708033024", icon: "/icons/discord.svg", text: "@psyhoregzoom"},
     {href: "https://www.instagram.com/psyhoregzoom", icon: "/icons/instagram.svg", text: "@psyhoregzoom"},
 ]
