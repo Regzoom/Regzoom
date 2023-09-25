@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './Star.css';
 
 export default function Star() {
     const [x, setX] = useState(0);
