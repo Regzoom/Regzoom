@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './Star.css'; // Импортируем CSS
 
 export default function Star() {
     const [x, setX] = useState(0);
@@ -15,15 +16,18 @@ export default function Star() {
         }
     }, [radius]);
 
+    const starStyle = {
+        top: y + 'px',
+        left: x + 'px',
+        height: radius + 'px',
+        width: radius + 'px',
+        animation: `moveStar ${duration}s linear infinite`,
+    };
+
     return (
         <div
-            className="absolute dark:bg-white rounded-full opacity-100"
-            style={{
-                top: y + 'px',
-                left: x + 'px',
-                height: radius + 'px',
-                width: radius + 'px',
-            }}
+            className="absolute dark:bg-white rounded-full opacity-100 star"
+            style={starStyle}
         />
     );
 }
