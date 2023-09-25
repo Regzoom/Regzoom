@@ -8,5 +8,9 @@
 }
 
 .star {
+    position: absolute;
+    background-color: white; /* Можете настроить цвет */
+    border-radius: 50%;
+    opacity: 1;
     animation: moveStar 4s linear infinite;
 }
