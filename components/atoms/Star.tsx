@@ -10,7 +10,7 @@ export default function Star() {
     useEffect(() => {
         if (radius === 0) {
             setX(Math.floor(Math.random() * Math.floor(document.documentElement.scrollWidth)));
-            setY(Math.floor(Math.random() * Math.floor(document.documentElement.scrollHeight)));
+            setY(window.innerHeight); // Установим начальную позицию внизу экрана
             setRadius(Math.random() * Math.floor(5));
             setDuration(Math.random() * (4 - 0.3) + 0.3);
         }
@@ -31,3 +31,4 @@ export default function Star() {
         />
     );
 }
+
