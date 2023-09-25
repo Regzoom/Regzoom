@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import './Star.css'; // Импортируем CSS
+import React, { useEffect, useState } from 'react';
+import './Star.css';
 
 export default function Star() {
     const [x, setX] = useState(0);
@@ -26,7 +26,7 @@ export default function Star() {
 
     return (
         <div
-            className="absolute dark:bg-white rounded-full opacity-100 star"
+            className="star"
             style={starStyle}
         />
     );
