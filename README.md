@@ -9,4 +9,6 @@
 ![ExpressJS](https://shields.io/badge/-Express.js-090909?style=for-the-badge&logo=express)
 ![Mongo.db](https://shields.io/badge/-Mongo.db-090909?style=for-the-badge&logo=mongodb)
 
+> ## Statistic
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=regzoom&show_icons=true&theme=radical)](https://github.com/regzoom/Regzoom)
+![Lang][(https://github-readme-stats.vercel.app/api/top-langs/?username=regzoom&icons=true&layout=compact&theme=radical)](https://github.com/regzoom/Regzoom)
