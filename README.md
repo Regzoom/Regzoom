@@ -11,4 +11,4 @@
 
 > ## Statistic
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=regzoom&show_icons=true&theme=radical)](https://github.com/regzoom/Regzoom)
-![Lang][(https://github-readme-stats.vercel.app/api/top-langs/?username=regzoom&icons=true&layout=compact&theme=radical)](https://github.com/regzoom/Regzoom)
+[![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=regzoom&layout=compact&theme=radical)](https://github.com/regzoom/Regzoom)
