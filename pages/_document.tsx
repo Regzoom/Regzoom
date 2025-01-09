@@ -19,7 +19,7 @@ export default function Document() {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-FGL4QES69Q');
+          gtag('config', '');
         `}
             </Script>
             </body>
